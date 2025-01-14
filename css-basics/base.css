@@ -36,6 +36,12 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+main{
+  display: flex ;
+  flex-direction: row;
+  flex:auto;
+
+}
 body {
 	line-height: 1;
 }
@@ -58,11 +64,15 @@ table {
 body {
 	font-family: 'Josefin Sans', serif;
 	color: rgba(0, 0, 0, 0.8);
+  display:flex;
+  flex-direction: column;
 }
 h1, h2, h3, h4, h5, h6, header {
 	font-family: 'Yeseva One', sans-serif;
 }
 article {
+  flex: 2;
+  overflow-y: auto;
 }
 header {
 	border-bottom: 1px solid rgb(221,221,221);
@@ -104,6 +114,8 @@ article > *:first-child {
 }
 aside {
 	padding: 50px 15px;
+  flex : 1;
+  overflow-y: auto;
 }
 header .right {
 	float: right;
