@@ -1,7 +1,5 @@
 #  ALU-WEB-DEVELOPMENT
- This contains web development related files 
+ The following link is the link to the deployed index.html in the css advanced directory 
+ Press the link below to see the deployed index.html
 
-- [html_basic](html-basics)
-- [css_basic](css_basic)
-- [html_advanced](html_advanced)
-- [css_advanced](css_advanced)
+- [My website](./css-advanced/index.html)
